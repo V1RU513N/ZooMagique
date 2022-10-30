@@ -1,0 +1,133 @@
+.centerTexte {
+   text-align:center;
+   line-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #0E0E0E;
+	color: white;
+	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.timerZone {
+	margin-top: 4em;
+	height: 50em;
+	display: grid;
+	align-items: center;
+	text-align: center;
+}
+
+.logo {
+	margin: 5em auto;
+	display: block;
+	width: 15em;
+}
+
+#preTimer {
+	font-weight: 100;
+	color: #4E4E4E;
+	margin-bottom: 1em;
+}
+
+.config {
+	display: flex;
+}
+
+input {
+	width: 10rem;
+}
+
+input::placeholder {
+	font-size: 15px;
+	line-height: 100%;
+}
+
+button {
+	margin-left: .5em;
+}
+
+#valueSeconde, button {
+	display: flex;
+	font-size: 2em;
+	background: #202020;
+	font-weight: medium;
+	color: white;
+	padding: .5em 1em;
+	text-align: center;
+	border: none;
+	box-sizing: border-box;
+	border-radius: .3em;
+}
+
+button {
+	cursor: pointer;
+}
+
+#startTimer {
+	padding: .5em 3em;
+	font-size: 1.5em;
+	line-height: 1.8em;
+	background: #E59429;
+	opacity: .8;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+
+#startTimer:hover {
+	opacity: 1;
+	background-color: #DB8615;
+	box-shadow: 0 0px 15px #644419;
+}
+
+#stopButton {
+	margin: 1em auto 0;
+}
+
+.numberTimer {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.numberTimer h1, h2 {
+	margin: 0;
+}
+
+
+#warTimer, #respawnTimer {
+	display: none;
+}
+
+#warTimer {
+	margin-top: 3em;
+}
+
+#warTimer h1 {
+	font-size: 3em;
+	margin-top: 0;
+}
+
+#warTimer h2 {
+	color: #4E4E4E;
+	font-size: 1.4em;
+	margin-bottom: .2em;
+}
+
+#respawnTimer {
+	margin-top: 4em;
+}
+
+#respawnTimer h2 {
+	font-size: 3em;
+	color: #E59429;
+}
+
+#respawnTimer h1 {
+	font-size: 10em;
+	margin-top: 0;
+}
